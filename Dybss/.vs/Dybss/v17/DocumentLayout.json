@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8D64FBFD-2542-412C-AC5B-FFC9F9DCA33C}|Bibliotheque\\Bibliotheque.csproj|c:\\users\\aliel\\onedrive\\desktop\\dybs\\dybss\\dybss\\bibliotheque\\classes\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D64FBFD-2542-412C-AC5B-FFC9F9DCA33C}|Bibliotheque\\Bibliotheque.csproj|solutionrelative:bibliotheque\\classes\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8D4626E0-A7FC-4709-AD8F-70EE696D252A}|Dybss\\Dybss.csproj|c:\\users\\aliel\\onedrive\\desktop\\dybs\\dybss\\dybss\\dybss\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D4626E0-A7FC-4709-AD8F-70EE696D252A}|Dybss\\Dybss.csproj|solutionrelative:dybss\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{8D4626E0-A7FC-4709-AD8F-70EE696D252A}|Dybss\\Dybss.csproj|solutionrelative:dybss\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D4626E0-A7FC-4709-AD8F-70EE696D252A}|Dybss\\Dybss.csproj|c:\\users\\aliel\\onedrive\\desktop\\dybs\\dybss\\dybss\\dybss\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8D4626E0-A7FC-4709-AD8F-70EE696D252A}|Dybss\\Dybss.csproj|C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\dybss\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8D4626E0-A7FC-4709-AD8F-70EE696D252A}|Dybss\\Dybss.csproj|solutionrelative:dybss\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Bibliotheque\\Classes\\Users.cs",
+              "RelativeDocumentMoniker": "Bibliotheque\\Classes\\Users.cs",
+              "ToolTip": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Bibliotheque\\Classes\\Users.cs",
+              "RelativeToolTip": "Bibliotheque\\Classes\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T19:34:18.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Dybss\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Dybss\\Form1.Designer.cs",
@@ -58,12 +75,11 @@
               "RelativeToolTip": "Dybss\\Form1.Designer.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAIwBwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T00:41:22.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T00:41:22.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SignInForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Dybss\\SignInForm.Designer.cs",
               "RelativeDocumentMoniker": "Dybss\\SignInForm.Designer.cs",
@@ -71,12 +87,11 @@
               "RelativeToolTip": "Dybss\\SignInForm.Designer.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAIwD4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T00:40:21.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T00:40:21.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SignInForm.cs",
               "DocumentMoniker": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Dybss\\SignInForm.cs",
               "RelativeDocumentMoniker": "Dybss\\SignInForm.cs",
@@ -89,19 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SignInForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Dybss\\SignInForm.cs",
-              "RelativeDocumentMoniker": "Dybss\\SignInForm.cs",
-              "ToolTip": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Dybss\\SignInForm.cs [Design]",
-              "RelativeToolTip": "Dybss\\SignInForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T00:26:51.121Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Dybss\\Form1.cs",
               "RelativeDocumentMoniker": "Dybss\\Form1.cs",
@@ -114,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Dybss\\Program.cs",
               "RelativeDocumentMoniker": "Dybss\\Program.cs",
@@ -122,20 +125,29 @@
               "RelativeToolTip": "Dybss\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T00:00:30.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T00:00:30.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "SignInForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Dybss\\SignInForm.cs",
+              "RelativeDocumentMoniker": "Dybss\\SignInForm.cs",
+              "ToolTip": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Dybss\\SignInForm.cs [Design]",
+              "RelativeToolTip": "Dybss\\SignInForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T00:26:51.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Dybss\\Form1.cs",
               "RelativeDocumentMoniker": "Dybss\\Form1.cs",
               "ToolTip": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Dybss\\Form1.cs [Design]",
               "RelativeToolTip": "Dybss\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T00:00:39.466Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-26T00:00:39.466Z"
             }
           ]
         },
