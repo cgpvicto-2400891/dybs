@@ -3,8 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{8D4626E0-A7FC-4709-AD8F-70EE696D252A}|Dybss\\Dybss.csproj|c:\\users\\aliel\\onedrive\\desktop\\dybs\\dybss\\dybss\\dybss\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D4626E0-A7FC-4709-AD8F-70EE696D252A}|Dybss\\Dybss.csproj|solutionrelative:dybss\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{8D64FBFD-2542-412C-AC5B-FFC9F9DCA33C}|Bibliotheque\\Bibliotheque.csproj|c:\\projetssession2\\programmation2\\projetdybss\\dybss\\dybss\\bibliotheque\\controlleurs\\utilisateursctlr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D64FBFD-2542-412C-AC5B-FFC9F9DCA33C}|Bibliotheque\\Bibliotheque.csproj|solutionrelative:bibliotheque\\controlleurs\\utilisateursctlr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> c772466bb6a7c964d9ac3e01bedb69d8a045f6b5
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D4626E0-A7FC-4709-AD8F-70EE696D252A}|Dybss\\Dybss.csproj|C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\dybss\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -15,6 +20,7 @@
       "RelativeMoniker": "D:0:0:{8D64FBFD-2542-412C-AC5B-FFC9F9DCA33C}|Bibliotheque\\Bibliotheque.csproj|solutionrelative:bibliotheque\\data\\utilisateurbasededonnee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{8D4626E0-A7FC-4709-AD8F-70EE696D252A}|Dybss\\Dybss.csproj|c:\\users\\aliel\\onedrive\\desktop\\dybs\\dybss\\dybss\\dybss\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D4626E0-A7FC-4709-AD8F-70EE696D252A}|Dybss\\Dybss.csproj|solutionrelative:dybss\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,6 +47,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{8D4626E0-A7FC-4709-AD8F-70EE696D252A}|Dybss\\Dybss.csproj|c:\\users\\aliel\\onedrive\\desktop\\dybs\\dybss\\dybss\\dybss\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D4626E0-A7FC-4709-AD8F-70EE696D252A}|Dybss\\Dybss.csproj|solutionrelative:dybss\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{8D64FBFD-2542-412C-AC5B-FFC9F9DCA33C}|Bibliotheque\\Bibliotheque.csproj|c:\\projetssession2\\programmation2\\projetdybss\\dybss\\dybss\\bibliotheque\\data\\produitbasededonnee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D64FBFD-2542-412C-AC5B-FFC9F9DCA33C}|Bibliotheque\\Bibliotheque.csproj|solutionrelative:bibliotheque\\data\\produitbasededonnee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CA241F-5BF3-465A-B130-2702FCA1DFDB}|Postman\\Postman.csproj|c:\\projetssession2\\programmation2\\projetdybss\\dybss\\dybss\\postman\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CA241F-5BF3-465A-B130-2702FCA1DFDB}|Postman\\Postman.csproj|solutionrelative:postman\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D64FBFD-2542-412C-AC5B-FFC9F9DCA33C}|Bibliotheque\\Bibliotheque.csproj|c:\\projetssession2\\programmation2\\projetdybss\\dybss\\dybss\\bibliotheque\\interface\\iutilisateursource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D64FBFD-2542-412C-AC5B-FFC9F9DCA33C}|Bibliotheque\\Bibliotheque.csproj|solutionrelative:bibliotheque\\interface\\iutilisateursource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> c772466bb6a7c964d9ac3e01bedb69d8a045f6b5
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +68,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 8,
+=======
+          "SelectedChildIndex": 3,
+>>>>>>> c772466bb6a7c964d9ac3e01bedb69d8a045f6b5
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,12 +84,56 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
+=======
+              "DocumentIndex": 0,
+              "Title": "UtilisateursCtlr.cs",
+              "DocumentMoniker": "C:\\ProjetsSession2\\Programmation2\\projetDybss\\Dybss\\Dybss\\Bibliotheque\\Controlleurs\\UtilisateursCtlr.cs",
+              "RelativeDocumentMoniker": "Bibliotheque\\Controlleurs\\UtilisateursCtlr.cs",
+              "ToolTip": "C:\\ProjetsSession2\\Programmation2\\projetDybss\\Dybss\\Dybss\\Bibliotheque\\Controlleurs\\UtilisateursCtlr.cs",
+              "RelativeToolTip": "Bibliotheque\\Controlleurs\\UtilisateursCtlr.cs",
+              "ViewState": "AgIAAAMAAAAgzczMzIwlwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T23:07:59.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ProjetsSession2\\Programmation2\\projetDybss\\Dybss\\Dybss\\Postman\\Program.cs",
+              "RelativeDocumentMoniker": "Postman\\Program.cs",
+              "ToolTip": "C:\\ProjetsSession2\\Programmation2\\projetDybss\\Dybss\\Dybss\\Postman\\Program.cs",
+              "RelativeToolTip": "Postman\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAMjMzMzMbwBQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T23:07:28.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUtilisateurSource.cs",
+              "DocumentMoniker": "C:\\ProjetsSession2\\Programmation2\\projetDybss\\Dybss\\Dybss\\Bibliotheque\\Interface\\IUtilisateurSource.cs",
+              "RelativeDocumentMoniker": "Bibliotheque\\Interface\\IUtilisateurSource.cs",
+              "ToolTip": "C:\\ProjetsSession2\\Programmation2\\projetDybss\\Dybss\\Dybss\\Bibliotheque\\Interface\\IUtilisateurSource.cs",
+              "RelativeToolTip": "Bibliotheque\\Interface\\IUtilisateurSource.cs",
+              "ViewState": "AgIAAA0AAAB6mZmZmZk9wBsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T22:51:48.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+>>>>>>> c772466bb6a7c964d9ac3e01bedb69d8a045f6b5
               "Title": "UtilisateurBaseDeDonnee.cs",
               "DocumentMoniker": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Bibliotheque\\Data\\UtilisateurBaseDeDonnee.cs",
               "RelativeDocumentMoniker": "Bibliotheque\\Data\\UtilisateurBaseDeDonnee.cs",
               "ToolTip": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Bibliotheque\\Data\\UtilisateurBaseDeDonnee.cs",
               "RelativeToolTip": "Bibliotheque\\Data\\UtilisateurBaseDeDonnee.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAHIBAAAAAAAAAAAIwIsBAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T02:39:00.219Z",
@@ -134,17 +200,32 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T00:39:26.776Z",
+=======
+              "ViewState": "AgIAAHgBAAAAs5mZmRkuwLkBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T22:29:36.5Z",
+>>>>>>> c772466bb6a7c964d9ac3e01bedb69d8a045f6b5
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Dybss\\Form1.cs",
               "RelativeDocumentMoniker": "Dybss\\Form1.cs",
-              "ToolTip": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Dybss\\Form1.cs*",
-              "RelativeToolTip": "Dybss\\Form1.cs*",
+              "ToolTip": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Dybss\\Form1.cs",
+              "RelativeToolTip": "Dybss\\Form1.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwCEAAABzAAAAAAAAAA==",
+=======
+              "DocumentIndex": 2,
+              "Title": "ProduitBaseDeDonnee.cs",
+              "DocumentMoniker": "C:\\ProjetsSession2\\Programmation2\\projetDybss\\Dybss\\Dybss\\Bibliotheque\\Data\\ProduitBaseDeDonnee.cs",
+              "RelativeDocumentMoniker": "Bibliotheque\\Data\\ProduitBaseDeDonnee.cs",
+              "ToolTip": "C:\\ProjetsSession2\\Programmation2\\projetDybss\\Dybss\\Dybss\\Bibliotheque\\Data\\ProduitBaseDeDonnee.cs",
+              "RelativeToolTip": "Bibliotheque\\Data\\ProduitBaseDeDonnee.cs",
+              "ViewState": "AgIAAAwAAABAMjMzMzMrwBcAAAAOAAAAAAAAAA==",
+>>>>>>> c772466bb6a7c964d9ac3e01bedb69d8a045f6b5
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T00:11:40.651Z",
               "EditorCaption": ""
@@ -179,8 +260,8 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Dybss\\Form1.cs",
               "RelativeDocumentMoniker": "Dybss\\Form1.cs",
-              "ToolTip": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Dybss\\Form1.cs [Design]*",
-              "RelativeToolTip": "Dybss\\Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Dybss\\Form1.cs [Design]",
+              "RelativeToolTip": "Dybss\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T00:00:39.466Z",
               "EditorCaption": " [Design]"

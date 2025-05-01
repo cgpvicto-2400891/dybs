@@ -15,6 +15,7 @@ using System.Security.Cryptography;
 using Microsoft.IdentityModel.Tokens;
 using Org.BouncyCastle.Crypto.Digests;
 using System.Diagnostics;
+using System.Runtime.Intrinsics.Arm;
 
 
 namespace Bibliotheque.Data
@@ -49,7 +50,7 @@ namespace Bibliotheque.Data
             }
             catch (Exception ex)
             {
-                Debug.Write("Erreur : " + ex.Message);
+                throw new Exception("Erreur lors de la connexion a la source de donnée");
             }
         }
 
@@ -75,7 +76,7 @@ namespace Bibliotheque.Data
             }
             catch (Exception ex)
             {
-                Debug.Write ("Erreur lors de la fermeture de la connexion : " + ex.Message);
+                throw new Exception("Erreur déconnexion a la source de donnée");
             } 
         }
 
@@ -171,7 +172,7 @@ namespace Bibliotheque.Data
             }
             catch (Exception ex)
             {
-                throw new Exception("Erreur lors de l'exécution de la requête : " + ex.Message);
+                throw new Exception("Erreur lors de l'enregisttrement de l'utilisateur");
             }
             finally
             {
@@ -184,53 +185,60 @@ namespace Bibliotheque.Data
         /// </summary>
         /// <param name="email">l'email de l'utilisateur(champ obligatoire)</param>
         /// <param name="motDePasse">Mot de passe de l'utilisateur(champ obligatoire)</param>
-        /// <returns>True si il est identifier</returns>
-        public bool Identifier(string email, string motDePasse)
+        /// <returns>le role si il est identifier, si non retourne "null"</returns>
+        public string Identifier(string email, string motDePasse)
         {
-            try
+            VerifivationDesChampsNull(email);
+            VerifivationDesChampsVide(email);
+            VerifivationDesChampsNull(motDePasse);
+            VerifivationDesChampsVide(motDePasse);
+
+            //Cherche l'utilisateur
+            List<Utilisateurs>? temp = ChercherUtilisateurs(email);
+
+            if (temp != null && temp.Count == 1)
             {
-                VerifivationDesChampsNull(email);
-                VerifivationDesChampsVide(email);
-                VerifivationDesChampsNull(motDePasse);
-                VerifivationDesChampsVide(motDePasse);
+                //Verifie le mot de passe
+                string requete = $"SELECT AES_DECRYPT(motDePasse, @cle) AS MDP, role_user FROM {_tableAssocie} WHERE email= @Email;";
 
-                //Cherche l'utilisateur
-                List<Utilisateurs>? temp = ChercherUtilisateurs(email);
+                Open();
 
-                if(temp.Count==1)
+                MySqlCommand commande = new MySqlCommand(requete, _connection);
+                commande.Parameters.AddWithValue("@cle", "DybVicQuebec");
+                commande.Parameters.AddWithValue("@Email", temp[0].Email);
+                MySqlDataReader lecteur = commande.ExecuteReader();
+
+                if (lecteur == null)
                 {
-                    //Verifie le mot de passe
-                    string requete = $"SELECT AES_DECRYPT(motDePasse, @cle) FROM {_tableAssocie} WHERE email= @Email;";
-
-                    Open();
-
-                    MySqlCommand commande = new MySqlCommand(requete, _connection);
-                    commande.Parameters.AddWithValue("@cle", "DybVicQuebec");
-                    commande.Parameters.AddWithValue("@Email", temp[0].Email);
-                    object resultat = commande.ExecuteScalar();
-
-                    if (resultat == null)
-                        throw new Exception("Aucun mot de passe enregistré ou Erreur de récupération de mot de passe dans la base de donné");
-                    string mdpDecrypter = Encoding.UTF8.GetString((byte[])(resultat));
-
-                    //Hasher le mot de passe entrer par l'utilisateur avec le même algorithme
-                    //Utiliser pour hasher les mots de passe se trouvant dans la Base de donnée
-     
-                    string mdpUserHasher = HacherMotDePasse(motDePasse);
-
-                    // Étape 3 : Comparer les deux valeurs
-                    return mdpUserHasher.Equals(mdpDecrypter);
+                    throw new Exception("Aucun mot de passe enregistré ou Erreur de récupération de mot de passe dans la base de donné");
                 }
-                return false;
-            }
-            catch( Exception ex)
-            {
-                throw new Exception("Erreur lors de l'identifiaction de l'utilisateur"+ex.Message);
-            }
-            finally
-            {
+
+                Object tempMdp = "";
+                string role = "";
+
+                while (lecteur.Read())
+                {
+                    tempMdp = lecteur["MDP"];
+                    role = lecteur["role_user"].ToString();
+                }
+
                 Close();
+
+                string mdpDecrypter = Encoding.UTF8.GetString((byte[])(tempMdp));
+
+                //Hasher le mot de passe entrer par l'utilisateur avec le même algorithme
+                //Utiliser pour hasher les mots de passe se trouvant dans la Base de donnée
+
+                string mdpUserHasher = HacherMotDePasse(motDePasse);
+
+                // Étape 3 : Comparer les deux valeurs
+                if (mdpDecrypter.Equals(mdpUserHasher))
+                {
+                    return role;
+                }
+
             }
+            return "Null";
         }
 
         /// <summary>
@@ -288,7 +296,7 @@ namespace Bibliotheque.Data
             }
             catch (Exception ex)
             {
-                throw new Exception("Erreur: " + ex.Message);
+                throw new Exception("Erreur lors de la modification de l'utilisateur");
             }
             finally
             {
@@ -332,7 +340,7 @@ namespace Bibliotheque.Data
             }
             catch (Exception ex)
             {
-                throw new Exception("Erreur: " + ex.Message);
+                throw new Exception("Erreur lors de l'affichage de tous les utilisateurs");
             }
             finally
             {
@@ -407,7 +415,7 @@ namespace Bibliotheque.Data
             }
             catch (Exception ex)
             {
-                throw new Exception( "Erreur: " + ex.Message);
+                throw new Exception( "Erreur lors de la recherche de cet utilisateur dans notre source" );
             }
             finally
             {

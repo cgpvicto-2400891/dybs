@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "BV9y8KnAShI=",
   "success": true,
   "projectFilePath": "C:\\Users\\aliel\\OneDrive\\Desktop\\dybs\\Dybss\\Dybss\\Dybss\\Dybss.csproj",
@@ -71,6 +72,13 @@
     "C:\\Users\\aliel\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\aliel\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512",
     "C:\\Users\\aliel\\.nuget\\packages\\zstdsharp.port\\0.8.5\\zstdsharp.port.0.8.5.nupkg.sha512"
+=======
+  "dgSpecHash": "xAOcbLJX4s8=",
+  "success": true,
+  "projectFilePath": "C:\\ProjetsSession2\\Programmation2\\projetDybss\\Dybss\\Dybss\\Dybss\\Dybss.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bensc\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512"
+>>>>>>> c772466bb6a7c964d9ac3e01bedb69d8a045f6b5
   ],
   "logs": []
 }

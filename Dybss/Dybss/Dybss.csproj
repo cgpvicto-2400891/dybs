@@ -9,7 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <ProjectReference Include="..\Bibliotheque\Bibliotheque.csproj" />
+=======
+    <PackageReference Include="Dapper" Version="2.1.66" />
+>>>>>>> c772466bb6a7c964d9ac3e01bedb69d8a045f6b5
   </ItemGroup>
 
 </Project>
