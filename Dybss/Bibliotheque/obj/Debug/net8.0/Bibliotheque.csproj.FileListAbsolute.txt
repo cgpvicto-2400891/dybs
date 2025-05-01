@@ -11,3 +11,16 @@ C:\ProjetsSession2\Programmation2\projetDybss\Dybss\Dybss\Bibliotheque\obj\Debug
 C:\ProjetsSession2\Programmation2\projetDybss\Dybss\Dybss\Bibliotheque\obj\Debug\net8.0\refint\Bibliotheque.dll
 C:\ProjetsSession2\Programmation2\projetDybss\Dybss\Dybss\Bibliotheque\obj\Debug\net8.0\Bibliotheque.pdb
 C:\ProjetsSession2\Programmation2\projetDybss\Dybss\Dybss\Bibliotheque\obj\Debug\net8.0\ref\Bibliotheque.dll
+C:\Users\aliel\OneDrive\Desktop\dybs\Dybss\Dybss\Bibliotheque\bin\Debug\net8.0\Bibliotheque.deps.json
+C:\Users\aliel\OneDrive\Desktop\dybs\Dybss\Dybss\Bibliotheque\bin\Debug\net8.0\Bibliotheque.dll
+C:\Users\aliel\OneDrive\Desktop\dybs\Dybss\Dybss\Bibliotheque\bin\Debug\net8.0\Bibliotheque.pdb
+C:\Users\aliel\OneDrive\Desktop\dybs\Dybss\Dybss\Bibliotheque\obj\Debug\net8.0\Bibliotheque.csproj.AssemblyReference.cache
+C:\Users\aliel\OneDrive\Desktop\dybs\Dybss\Dybss\Bibliotheque\obj\Debug\net8.0\Bibliotheque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aliel\OneDrive\Desktop\dybs\Dybss\Dybss\Bibliotheque\obj\Debug\net8.0\Bibliotheque.AssemblyInfoInputs.cache
+C:\Users\aliel\OneDrive\Desktop\dybs\Dybss\Dybss\Bibliotheque\obj\Debug\net8.0\Bibliotheque.AssemblyInfo.cs
+C:\Users\aliel\OneDrive\Desktop\dybs\Dybss\Dybss\Bibliotheque\obj\Debug\net8.0\Bibliotheque.csproj.CoreCompileInputs.cache
+C:\Users\aliel\OneDrive\Desktop\dybs\Dybss\Dybss\Bibliotheque\obj\Debug\net8.0\Bibliotheque.sourcelink.json
+C:\Users\aliel\OneDrive\Desktop\dybs\Dybss\Dybss\Bibliotheque\obj\Debug\net8.0\Bibliotheque.dll
+C:\Users\aliel\OneDrive\Desktop\dybs\Dybss\Dybss\Bibliotheque\obj\Debug\net8.0\refint\Bibliotheque.dll
+C:\Users\aliel\OneDrive\Desktop\dybs\Dybss\Dybss\Bibliotheque\obj\Debug\net8.0\Bibliotheque.pdb
+C:\Users\aliel\OneDrive\Desktop\dybs\Dybss\Dybss\Bibliotheque\obj\Debug\net8.0\ref\Bibliotheque.dll

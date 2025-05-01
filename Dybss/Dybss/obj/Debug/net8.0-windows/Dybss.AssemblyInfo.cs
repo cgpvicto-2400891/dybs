@@ -14,15 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dybss")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36310c72d9be2c56b7ac6fe102895c1de0bb91a4")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c146cce5dbd2a82c7013b1051d595aac8b54a5ce")]
->>>>>>> 0a09726ba629617ba5df50810703c7ea2935b214
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+625b6d74e7491927e8ad1260b2268179ca43822f")]
->>>>>>> 0c3daccc9542c7a7eb936297f559d69bf7ee6f3c
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bf731ef821e781680955603518f02184e6d6316")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dybss")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dybss")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

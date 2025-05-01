@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bibliotheque.Controlleurs;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -37,7 +38,19 @@ namespace Dybss
 
         private void button1_Click(object sender, EventArgs e)
         {
+            try
+            {
+                UtilisateursCtlr user = UtilisateursCtlr.Instance;
+                bool valideUser = user.Identification(textBox1.Text, textBox2.Text);
+                MessageBox.Show(valideUser ? "user found" : "user not found"); 
 
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("erreur:" + ex);
+            }
+           ;
+            
         }
     }
 }

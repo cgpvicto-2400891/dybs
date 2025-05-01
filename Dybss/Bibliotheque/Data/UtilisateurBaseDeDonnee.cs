@@ -42,7 +42,7 @@ namespace Bibliotheque.Data
             {
                 if (_connection.State == System.Data.ConnectionState.Open)
                     Debug.Write("Connexion déja ouverte");
-                _connection = new MySqlConnection("Server=localhost;Database=Dybss;Uid=root;Pwd=mysql;");
+                _connection = new MySqlConnection("Server=localhost;port=3305;Database=Dybss;Uid=root;Pwd=Ahmed2004@;");
                 _connection.Open();
                 _status = true;
                 Debug.Write("Connexion réussie à MySQL !");
