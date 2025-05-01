@@ -31,13 +31,13 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             panel1 = new Panel();
+            button3 = new Button();
             button1 = new Button();
             label2 = new Label();
             label1 = new Label();
             panel2 = new Panel();
             button2 = new Button();
             label3 = new Label();
-            button3 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -56,7 +56,6 @@
             textBox2.Size = new Size(222, 31);
             textBox2.TabIndex = 1;
             textBox2.UseSystemPasswordChar = true;
-            textBox2.Visible = true;
             // 
             // panel1
             // 
@@ -71,6 +70,16 @@
             panel1.Size = new Size(478, 249);
             panel1.TabIndex = 2;
             // 
+            // button3
+            // 
+            button3.Location = new Point(404, 137);
+            button3.Name = "button3";
+            button3.Size = new Size(42, 34);
+            button3.TabIndex = 5;
+            button3.Text = "👀";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // button1
             // 
             button1.Location = new Point(39, 205);
@@ -79,6 +88,7 @@
             button1.TabIndex = 4;
             button1.Text = "SignIn";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label2
             // 
@@ -125,16 +135,6 @@
             label3.Size = new Size(53, 25);
             label3.TabIndex = 0;
             label3.Text = "Dybs";
-            // 
-            // button3
-            // 
-            button3.Location = new Point(404, 137);
-            button3.Name = "button3";
-            button3.Size = new Size(42, 34);
-            button3.TabIndex = 5;
-            button3.Text = "👀";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
             // 
             // SignInForm
             // 

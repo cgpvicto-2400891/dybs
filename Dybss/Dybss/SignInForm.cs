@@ -28,10 +28,15 @@ namespace Dybss
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
-            button3.Text = !show ?  "😪" : "👀";
+
+            button3.Text = !show ? "😪" : "👀";
             textBox2.UseSystemPasswordChar = show;
             show = !show;
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
 
         }
     }
